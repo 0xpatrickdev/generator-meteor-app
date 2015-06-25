@@ -8,18 +8,23 @@
 }
 
 #banner h1 {
-    font-size: 60px;
+    font-size: 48px;
+    font-weight: bold;
     line-height: 1;
-    letter-spacing: -1px;
+    font-family: 'Corbel';
+    letter-spacing: 10px;
 }
 
 .hero-unit {
     position: relative;
+    font-weight: bold;
     padding: 30px 15px;
-    color: #F5F5F5;
+    font-family: 'Corbel';
+    letter-spacing: 0px;
+    color: #004e7b;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    background: #4393B9;
+    background: #FFFFFF;
 }
 
 .footer {
