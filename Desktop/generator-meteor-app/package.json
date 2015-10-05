@@ -1,0 +1,45 @@
+{
+  "name": "generator-meteor-app",
+  "version": "1.0.0",
+  "description": "A Yeoman generator for Meteor apps.",
+  "keywords": [
+    "yeoman-generator",
+    "scaffolding",
+    "template",
+    "skeleton",
+    "meteor"
+  ],
+  "homepage": "https://github.com/pcooney10/generator-meteor-app",
+  "bugs": "https://github.com/pcooney10/generator-meteor-app/issues",
+  "author": {
+    "name": "pcooney10",
+    "email": "pcooney10@gmail.com",
+    "url": "https://github.com/pcooney10"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pcooney10/generator-meteor-app.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.19.1",
+    "yosay": "^1.0.2",
+    "yo": ">=1.0.0",
+    "underscore.string": ">=3.0.3",
+    "mkdirp": "0.5.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

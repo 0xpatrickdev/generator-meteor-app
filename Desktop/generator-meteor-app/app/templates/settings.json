@@ -1,0 +1,18 @@
+{
+"public": {
+    "service": {
+      "clientId": ""
+    },
+    "kadira": { 
+      "appId": ""
+    }
+  },
+"private": {
+    "service": {
+      "secret": ""
+    },
+    "kadira": { 
+      "appSecret": "" 
+    }
+  }
+}
