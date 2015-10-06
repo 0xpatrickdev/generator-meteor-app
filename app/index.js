@@ -187,26 +187,25 @@ Generator.prototype.app = function app() {
 
 Generator.prototype.addRouter = function addRouter() {
   if (this.flowRouter) {
-    this.packages.push(['kadira:flow-router', 'kadira:blaze-layout', 'arillo:flow-router-helpers'] );
+    this.packages.push('kadira:flow-router', 'kadira:blaze-layout', 'arillo:flow-router-helpers');
   }
 };
 
 Generator.prototype.addAccounts = function addAccounts() {
   if (this.accounts) {
-    this.packages.push(['service-configuration', 'accounts-base', 'accounts-password'] );
+    this.packages.push('service-configuration', 'accounts-base', 'accounts-password');
   }
 };
 
 Generator.prototype.addCollectionTools = function addCollectionTools() {
   if (this.collectiontools) {
-    this.packages.push(['dburles:collection-helpers', 'matb33:collection-hooks', 'aldeed:collection2', 'raix:handlebar-helpers'] );
+    this.packages.push('dburles:collection-helpers', 'matb33:collection-hooks', 'aldeed:collection2', 'raix:handlebar-helpers');
   }
 };
 
 Generator.prototype.addSemanticUI = function addSemanticUI() {
   if (this.semanticUI) {
-    var semanticPackages = ['semantic:ui','semantic:ui-data','semantic:ui-icon','semantic:ui-button','semantic:ui-grid','semantic:ui-form','semantic:ui-header','semantic:ui-menu','semantic:ui-card','semantic:ui-segment','semantic:ui-dropdown','semantic:ui-input','semantic:ui-item','semantic:ui-divider','semantic:ui-list','semantic:ui-transition','semantic:ui-table','semantic:ui-modal','semantic:ui-dimmer','semantic:ui-message','semantic:ui-label','semantic:ui-popup','semantic:ui-feed','semantic:ui-comment','semantic:ui-image','semantic:ui-checkbox','semantic:ui-search','semantic:ui-api','semantic:ui-tab','semantic:ui-site','semantic:ui-reveal','semantic:ui-nag','semantic:ui-rail','semantic:ui-step','semantic:ui-loader','semantic:ui-progress','semantic:ui-css']
-    this.packages.push(semanticPackages);
+    this.packages.push('semantic:ui','semantic:ui-data','semantic:ui-icon','semantic:ui-button','semantic:ui-grid','semantic:ui-form','semantic:ui-header','semantic:ui-menu','semantic:ui-card','semantic:ui-segment','semantic:ui-dropdown','semantic:ui-input','semantic:ui-item','semantic:ui-divider','semantic:ui-list','semantic:ui-transition','semantic:ui-table','semantic:ui-modal','semantic:ui-dimmer','semantic:ui-message','semantic:ui-label','semantic:ui-popup','semantic:ui-feed','semantic:ui-comment','semantic:ui-image','semantic:ui-checkbox','semantic:ui-search','semantic:ui-api','semantic:ui-tab','semantic:ui-site','semantic:ui-reveal','semantic:ui-nag','semantic:ui-rail','semantic:ui-step','semantic:ui-loader','semantic:ui-progress','semantic:ui-css');
   }
 };
 
@@ -230,7 +229,7 @@ Generator.prototype.addPublishCounts = function addPublishCounts() {
 
 Generator.prototype.addAutoform = function addAutoform() {
   if (this.autoform) {
-    this.packages.push(['aldeed:autoform', 'fabienb4:autoform-semantic-ui']);
+    this.packages.push('aldeed:autoform', 'fabienb4:autoform-semantic-ui');
   }
 };
 
@@ -256,7 +255,7 @@ Generator.prototype.addMeteorToys = function addMeteorToys() {
 Generator.prototype.addKadira = function addKadira() {
   if (this.kadira) {
     this.copy('settings.json', 'settings.json');
-    this.packages.push(['meteorhacks:kadira', 'meteorhacks:kadira-profiler', 'kadira:debug'] );
+    this.packages.push('meteorhacks:kadira', 'meteorhacks:kadira-profiler', 'kadira:debug');
   }
 };
 
