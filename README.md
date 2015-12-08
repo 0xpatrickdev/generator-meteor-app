@@ -14,16 +14,22 @@ A [Meteor](http://meteor.com) project generator for [Yeoman](http://yeoman.io).
 * [nodejs](http://nodejs.com)
 * [yeoman](http://yeoman.io)
 
-Create a new project directory:
+Create a new app directory:
 
 ```
-$ mkdir your-new-project && cd $_
+$ npm install -g generator-meteor-app
+```
+
+Create a new app directory:
+
+```
+$ mkdir newApp && cd $_
 ```
 
 Initiate the generator:
 
 ```
-$ yo meteor
+$ yo meteor-app
 ```
 
 Finally, run Meteor:
@@ -37,19 +43,19 @@ $ meteor
 To generate a new Collection in `/lib/collections`, and accompanying pubs/subs:
 
 ```
-$ yo meteor:collection yourCollectionName
+$ yo meteor-app:collection yourCollectionName
 ```
 
 To generate a new view in `/client/views/`:
 
 ```
-$ yo meteor:view viewName
+$ yo meteor-app:view viewName
 ```
 
 To generate a new template in `/client/templates/`:
 
 ```
-$ yo meteor:template templateName
+$ yo meteor-app:template templateName
 ```
 
 ## App Structure

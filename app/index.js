@@ -168,9 +168,9 @@ Generator.prototype.app = function app() {
   this.copy('client/layouts/mainLayout.html', 'client/layouts/mainLayout.html');
   this.copy('client/views/home.js', 'client/views/home.js');
   this.copy('client/views/home.html', 'client/views/home.html');
-  this.copy('lib/registerHelpers.js', 'lib/registerHelpers.js');
+  this.copy('client/lib/registerHelpers.js', 'client/lib/registerHelpers.js');
+  this.copy('client/lib/templateHelpers.js', 'client/lib/templateHelpers.js');
   this.copy('lib/routes/routes.js', 'lib/routes/routes.js');
-  this.copy('lib/templateHelpers.js', 'lib/templateHelpers.js');
   this.copy('public/robots.txt', 'public/robots.txt');
   this.copy('server/security.js', 'server/security.js');
   this.copy('server/startup.js', 'server/startup.js');

@@ -14,4 +14,5 @@ util.inherits(Generator, scriptBase);
 Generator.prototype.createViewFiles = function createViewFiles() {
   this.writeTemplate('client/view/view.html', path.join('client/templates', this.name.toLowerCase() + '.html'));
   this.writeTemplate('client/view/view.js', path.join('client/templates', this.name.toLowerCase() + '.js'));
+  this.writeTemplate('lib/routes/route.js', path.join('lib/routes', this.name.toLowerCase() + 'Routes.js'));
 };
